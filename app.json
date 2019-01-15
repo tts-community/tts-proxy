@@ -1,0 +1,21 @@
+{
+  "name": "tts-proxy",
+  "description": "A simple server for forwarding/proxying Tabletop Simulator web requests into standard HTTP.",
+  "keywords": [
+    "tabletop-simulator",
+    "tts",
+    "proxy"
+  ],
+  "repository": "https://gitlab.com/BenjaminDobell/tts-proxy",
+  "env": {
+    "URL_REGEX": {
+      "description": "Permitted URL regex.",
+      "value": ".+"
+    },
+    "MAX_TIMEOUT": {
+      "description": "Maximum request timeout in seconds.",
+      "value": "60",
+      "required": false
+    }
+  }
+}

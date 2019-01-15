@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+chardet = "~=3.0.4"
+Flask = "~=0.12.2"
+gunicorn = "~=19.7.1"
+psycopg2 = "~=2.7.3"
+requests = "~=2.2.1"
+
+[dev-packages]
+python-dotenv = "~=0.7.1"
+
+[requires]
+python_version = "3.6.4"
