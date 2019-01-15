@@ -68,7 +68,7 @@ def forward_request():
 
     wrapped_response = {
         'status_code': response.status_code,
-        'headers': response.headers,
+        'headers': dict(response.headers),
     }
 
     if response.content:
