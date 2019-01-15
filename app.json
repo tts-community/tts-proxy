@@ -6,7 +6,7 @@
     "tts",
     "proxy"
   ],
-  "repository": "https://gitlab.com/BenjaminDobell/tts-proxy",
+  "repository": "https://github.com/Benjamin-Dobell/tts-proxy",
   "env": {
     "URL_REGEX": {
       "description": "Permitted URL regex.",

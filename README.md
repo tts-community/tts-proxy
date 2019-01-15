@@ -49,7 +49,7 @@ If for some reason you don't want to deploy automatically (using the "Deploy" bu
 1. Clone tts-proxy:
 
     ```bash
-    git clone https://gitlab.com/BenjaminDobell/tts-proxy.git
+    git clone https://github.com/Benjamin-Dobell/tts-proxy.git
     ```
 
 2. Create a Heroku app:

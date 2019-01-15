@@ -31,7 +31,7 @@ def request_wants_json():
 
 @app.route('/')
 def index():
-    return redirect('https://gitlab.com/BenjaminDobell/tts-proxy')
+    return redirect('https://github.com/Benjamin-Dobell/tts-proxy')
 
 @app.route('/forward', methods=['PUT'])
 def forward_request():
