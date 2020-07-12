@@ -30,7 +30,7 @@ To _mitigate_ this, we allow you restrict which URLs your tts-proxy deployment i
 
 We keep it simple and provide just one option (environment variable) you need to set, called `URL_REGEX`. You can update `URL_REGEX` from https://dashboard.heroku.com/apps/<YOUR_HEROKU_DEPLOYMENT_NAME>/settings.
 
-__IMPORTANT__: By default `URL_REGEX` has the value `.+` which means _any_ URL i.e. By default tts-proxy is _not_ restricted._**
+__IMPORTANT__: By default `URL_REGEX` has the value `.+` which means _any_ URL i.e. By default tts-proxy is _not_ restricted.
 
 As an example, if you wanted to use [Firebase Cloud Firestore](https://firebase.google.com/products/firestore/) as a datastore for your mod, you could restrict `tts-proxy` to communicating with just _your_ Firestore database with:
 
@@ -67,8 +67,9 @@ If for some reason you don't want to deploy automatically (using the "Deploy" bu
 4. Run the setup script and ensure one dyno is running:
 
     ```bash
-    heroku run ./setup.py
     heroku ps:scale web=1
-    ```
+    ``` 
 
-    `setup.py` will perform one-time app setup e.g. creating the database.
+# Tabletop Simulator HTTP Client
+
+The corresponding Tabletop Simulator Lua HTTP client for this proxy is available as part of [ge_tts](https://github.com/Benjamin-Dobell/ge_tts).
