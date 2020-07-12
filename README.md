@@ -64,7 +64,7 @@ If for some reason you don't want to deploy automatically (using the "Deploy" bu
     git push heroku master
     ```
 
-4. Run the setup script and ensure one dyno is running:
+4. Ensure one "Dyno" (app instance) is running:
 
     ```bash
     heroku ps:scale web=1

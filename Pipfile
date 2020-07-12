@@ -4,14 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-chardet = "~=3.0.4"
-Flask = "~=0.12.2"
-gunicorn = "~=19.7.1"
-psycopg2 = "~=2.7.3"
-requests = "~=2.2.1"
+flask = ">=1.0.0"
+gunicorn = "~=20.0.4"
+requests = ">=2.20.0"
 
 [dev-packages]
-python-dotenv = "~=0.7.1"
+python-dotenv = "~=0.14.0"
 
 [requires]
-python_version = "3.6.4"
+python_version = "3.6.11"
